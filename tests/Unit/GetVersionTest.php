@@ -12,6 +12,6 @@ final class GetVersionTest extends TestCase
 {
     public function test_get_version(): void
     {
-        self::assertMatchesRegularExpression('/^v[0-9]+\.[0-9]+\.[0-9]+\-.+$/', GitVersion::getVersion());
+        self::assertMatchesRegularExpression('/^v[0-9]+\.[0-9]+\.[0-9]+$/', GitVersion::getVersion());
     }
 }

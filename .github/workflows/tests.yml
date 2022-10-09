@@ -34,8 +34,11 @@ jobs:
       - name: Check PHP version
         run: php -v
 
+      - name: Add GIT safe directory
+        run: git config --global --add safe.directory /var/www/html
+
       - name: Check GIT version
-        run: git describe --always --tags --dirty
+        run: git describe --tags --abbrev=0
 
       - name: Install Composer dependencies
         run: composer update --no-interaction --prefer-dist
