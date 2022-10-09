@@ -6,7 +6,8 @@
     "keywords": [
         "php",
         "git",
-        "git-version"
+        "git-version",
+        "app-version"
     ],
     "homepage": "https://github.com/gomzyakov/git-version",
     "authors": [
