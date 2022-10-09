@@ -12,7 +12,6 @@ class GitVersion
      * Shell command to get version string from git.
      */
     private const SHELL_COMMAND = 'git describe --tags --abbrev=0';
-    //private const SHELL_COMMAND = 'git describe --always --tags --dirty';
 
     /**
      * Get the app's version string from `git describe`.
