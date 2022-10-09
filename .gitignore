@@ -1,0 +1,19 @@
+# Folders with IDE`s settings
+/.idea
+/.vscode
+
+# Composer
+/vendor
+composer.lock
+
+# phpunit
+.phpunit.result.cache
+
+# php-cs-fixer
+.php-cs-fixer.cache
+
+# PHPUnit coverage files
+/storage/coverage
+
+# OS X
+.DS_Store
